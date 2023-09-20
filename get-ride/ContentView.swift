@@ -1,21 +1,19 @@
-//
-//  ContentView.swift
-//  get-ride
-//
-//  Created by Janny on 18/9/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var username: String = ""
+    @State private var password: String = ""
+    
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            InputLable(username: $username, name: "Username")
+            InputLable(username: $password, name: "Password")
+            CustomSiginButton()
+            
         }
         .padding()
+        .background(Color(UIColor(red: CGFloat(0), green: CGFloat(154), blue: CGFloat(124), alpha: CGFloat(0.0))))
     }
 }
 

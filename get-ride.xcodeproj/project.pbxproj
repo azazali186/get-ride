@@ -14,6 +14,8 @@
 		3A9887092AB7EC9C00DF4ECA /* get_rideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887082AB7EC9C00DF4ECA /* get_rideTests.swift */; };
 		3A9887132AB7EC9C00DF4ECA /* get_rideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887122AB7EC9C00DF4ECA /* get_rideUITests.swift */; };
 		3A9887152AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887142AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift */; };
+		3AA0AAB62ABAE141001DE393 /* inputLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB52ABAE141001DE393 /* inputLable.swift */; };
+		3AA0AAB82ABAF686001DE393 /* CustomSiginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3A98870E2AB7EC9C00DF4ECA /* get-rideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "get-rideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9887122AB7EC9C00DF4ECA /* get_rideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideUITests.swift; sourceTree = "<group>"; };
 		3A9887142AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AA0AAB52ABAE141001DE393 /* inputLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = inputLable.swift; path = components/inputBoxes/inputLable.swift; sourceTree = "<group>"; };
+		3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomSiginButton.swift; path = components/inputBoxes/CustomSiginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */,
 				3A9886F82AB7EC9B00DF4ECA /* ContentView.swift */,
+				3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */,
+				3AA0AAB52ABAE141001DE393 /* inputLable.swift */,
 				3A9886FA2AB7EC9C00DF4ECA /* Assets.xcassets */,
 				3A9886FC2AB7EC9C00DF4ECA /* get_ride.entitlements */,
 				3A9886FD2AB7EC9C00DF4ECA /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9886F92AB7EC9B00DF4ECA /* ContentView.swift in Sources */,
+				3AA0AAB62ABAE141001DE393 /* inputLable.swift in Sources */,
 				3A9886F72AB7EC9B00DF4ECA /* get_rideApp.swift in Sources */,
+				3AA0AAB82ABAF686001DE393 /* CustomSiginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
