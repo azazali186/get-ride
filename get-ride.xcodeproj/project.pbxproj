@@ -13,8 +13,8 @@
 		3A560B492ABC4243002B7392 /* DashboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B482ABC4243002B7392 /* DashboardPage.swift */; };
 		3A560B4E2ABC4A55002B7392 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4B2ABC4A55002B7392 /* User.swift */; };
 		3A560B4F2ABC4A55002B7392 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4C2ABC4A55002B7392 /* Permissions.swift */; };
-		3A560B502ABC4A55002B7392 /* RoleId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4D2ABC4A55002B7392 /* RoleId.swift */; };
-		3A560B522ABC4A8B002B7392 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B512ABC4A8B002B7392 /* LoginResponse.swift */; };
+		3A560B502ABC4A55002B7392 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4D2ABC4A55002B7392 /* Role.swift */; };
+		3A560B522ABC4A8B002B7392 /* LoginResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B512ABC4A8B002B7392 /* LoginResponseData.swift */; };
 		3A560B542ABC4A96002B7392 /* LoginResponseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */; };
 		3A9886F72AB7EC9B00DF4ECA /* get_rideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */; };
 		3A9886F92AB7EC9B00DF4ECA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9886F82AB7EC9B00DF4ECA /* LoginPage.swift */; };
@@ -51,8 +51,8 @@
 		3A560B482ABC4243002B7392 /* DashboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPage.swift; sourceTree = "<group>"; };
 		3A560B4B2ABC4A55002B7392 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3A560B4C2ABC4A55002B7392 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
-		3A560B4D2ABC4A55002B7392 /* RoleId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleId.swift; sourceTree = "<group>"; };
-		3A560B512ABC4A8B002B7392 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		3A560B4D2ABC4A55002B7392 /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		3A560B512ABC4A8B002B7392 /* LoginResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponseData.swift; sourceTree = "<group>"; };
 		3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponseMain.swift; sourceTree = "<group>"; };
 		3A9886F32AB7EC9B00DF4ECA /* get-ride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "get-ride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideApp.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				3A560B4C2ABC4A55002B7392 /* Permissions.swift */,
-				3A560B4D2ABC4A55002B7392 /* RoleId.swift */,
+				3A560B4D2ABC4A55002B7392 /* Role.swift */,
 				3A560B4B2ABC4A55002B7392 /* User.swift */,
 				3A560B442ABC410C002B7392 /* UserModal.swift */,
 			);
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */,
-				3A560B512ABC4A8B002B7392 /* LoginResponse.swift */,
+				3A560B512ABC4A8B002B7392 /* LoginResponseData.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -351,12 +351,12 @@
 				3A560B4F2ABC4A55002B7392 /* Permissions.swift in Sources */,
 				3A560B452ABC410C002B7392 /* UserModal.swift in Sources */,
 				3A9886F92AB7EC9B00DF4ECA /* LoginPage.swift in Sources */,
-				3A560B502ABC4A55002B7392 /* RoleId.swift in Sources */,
+				3A560B502ABC4A55002B7392 /* Role.swift in Sources */,
 				3A560B472ABC41FF002B7392 /* ContentView.swift in Sources */,
 				3A560B492ABC4243002B7392 /* DashboardPage.swift in Sources */,
 				3AA0AAB62ABAE141001DE393 /* InputLable.swift in Sources */,
 				3A560B542ABC4A96002B7392 /* LoginResponseMain.swift in Sources */,
-				3A560B522ABC4A8B002B7392 /* LoginResponse.swift in Sources */,
+				3A560B522ABC4A8B002B7392 /* LoginResponseData.swift in Sources */,
 				3A560B4E2ABC4A55002B7392 /* User.swift in Sources */,
 				3A560B3C2ABC3A0E002B7392 /* SecureLableComponent.swift in Sources */,
 				3A9886F72AB7EC9B00DF4ECA /* get_rideApp.swift in Sources */,

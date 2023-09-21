@@ -1,17 +1,17 @@
 import Foundation
 
 
-public class LoginResponse {
+public class LoginResponseData {
 	public var user : User?
 	public var token : String?
 	public var permissions : Array<Permissions>?
 
-    public class func modelsFromDictionaryArray(array:NSArray) -> [LoginResponse]
+    public class func modelsFromDictionaryArray(array:NSArray) -> [LoginResponseData]
     {
-        var models:[LoginResponse] = []
+        var models:[LoginResponseData] = []
         for item in array
         {
-            models.append(LoginResponse(dictionary: item as! NSDictionary)!)
+            models.append(LoginResponseData(dictionary: item as! NSDictionary)!)
         }
         return models
     }

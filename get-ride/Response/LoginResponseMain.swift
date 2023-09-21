@@ -3,7 +3,7 @@ import Foundation
 public class LoginResponseMain {
 	public var status : Int?
 	public var message : String?
-	public var data : LoginResponse?
+	public var data : LoginResponseData?
 
     public class func modelsFromDictionaryArray(array:NSArray) -> [LoginResponseMain]
     {
@@ -19,7 +19,7 @@ public class LoginResponseMain {
 
 		status = dictionary["status"] as? Int
 		message = dictionary["message"] as? String
-		if (dictionary["data"] != nil) { data = LoginResponse(dictionary: dictionary["data"] as! NSDictionary) }
+		if (dictionary["data"] != nil) { data = LoginResponseData(dictionary: dictionary["data"] as! NSDictionary) }
 	}
 
 
