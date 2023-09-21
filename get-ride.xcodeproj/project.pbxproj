@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A560B3C2ABC3A0E002B7392 /* SecureLableComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B3B2ABC3A0E002B7392 /* SecureLableComponent.swift */; };
+		3A560B452ABC410C002B7392 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B442ABC410C002B7392 /* UserModal.swift */; };
+		3A560B472ABC41FF002B7392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B462ABC41FF002B7392 /* ContentView.swift */; };
+		3A560B492ABC4243002B7392 /* DashboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B482ABC4243002B7392 /* DashboardPage.swift */; };
+		3A560B4E2ABC4A55002B7392 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4B2ABC4A55002B7392 /* User.swift */; };
+		3A560B4F2ABC4A55002B7392 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4C2ABC4A55002B7392 /* Permissions.swift */; };
+		3A560B502ABC4A55002B7392 /* RoleId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B4D2ABC4A55002B7392 /* RoleId.swift */; };
+		3A560B522ABC4A8B002B7392 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B512ABC4A8B002B7392 /* LoginResponse.swift */; };
+		3A560B542ABC4A96002B7392 /* LoginResponseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */; };
 		3A9886F72AB7EC9B00DF4ECA /* get_rideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */; };
-		3A9886F92AB7EC9B00DF4ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9886F82AB7EC9B00DF4ECA /* ContentView.swift */; };
+		3A9886F92AB7EC9B00DF4ECA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9886F82AB7EC9B00DF4ECA /* LoginPage.swift */; };
 		3A9886FB2AB7EC9C00DF4ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9886FA2AB7EC9C00DF4ECA /* Assets.xcassets */; };
 		3A9886FF2AB7EC9C00DF4ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9886FE2AB7EC9C00DF4ECA /* Preview Assets.xcassets */; };
 		3A9887092AB7EC9C00DF4ECA /* get_rideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887082AB7EC9C00DF4ECA /* get_rideTests.swift */; };
 		3A9887132AB7EC9C00DF4ECA /* get_rideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887122AB7EC9C00DF4ECA /* get_rideUITests.swift */; };
 		3A9887152AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887142AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift */; };
-		3AA0AAB62ABAE141001DE393 /* inputLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB52ABAE141001DE393 /* inputLable.swift */; };
-		3AA0AAB82ABAF686001DE393 /* CustomSiginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */; };
+		3AA0AAB62ABAE141001DE393 /* InputLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB52ABAE141001DE393 /* InputLable.swift */; };
+		3AA0AAB82ABAF686001DE393 /* CustomSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AAB72ABAF686001DE393 /* CustomSignInButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A560B3B2ABC3A0E002B7392 /* SecureLableComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureLableComponent.swift; sourceTree = "<group>"; };
+		3A560B442ABC410C002B7392 /* UserModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
+		3A560B462ABC41FF002B7392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A560B482ABC4243002B7392 /* DashboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPage.swift; sourceTree = "<group>"; };
+		3A560B4B2ABC4A55002B7392 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A560B4C2ABC4A55002B7392 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		3A560B4D2ABC4A55002B7392 /* RoleId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleId.swift; sourceTree = "<group>"; };
+		3A560B512ABC4A8B002B7392 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponseMain.swift; sourceTree = "<group>"; };
 		3A9886F32AB7EC9B00DF4ECA /* get-ride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "get-ride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideApp.swift; sourceTree = "<group>"; };
-		3A9886F82AB7EC9B00DF4ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A9886F82AB7EC9B00DF4ECA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		3A9886FA2AB7EC9C00DF4ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9886FC2AB7EC9C00DF4ECA /* get_ride.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = get_ride.entitlements; sourceTree = "<group>"; };
 		3A9886FE2AB7EC9C00DF4ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,8 +65,8 @@
 		3A98870E2AB7EC9C00DF4ECA /* get-rideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "get-rideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9887122AB7EC9C00DF4ECA /* get_rideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideUITests.swift; sourceTree = "<group>"; };
 		3A9887142AB7EC9C00DF4ECA /* get_rideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_rideUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3AA0AAB52ABAE141001DE393 /* inputLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = inputLable.swift; path = components/inputBoxes/inputLable.swift; sourceTree = "<group>"; };
-		3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomSiginButton.swift; path = components/inputBoxes/CustomSiginButton.swift; sourceTree = "<group>"; };
+		3AA0AAB52ABAE141001DE393 /* InputLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLable.swift; sourceTree = "<group>"; };
+		3AA0AAB72ABAF686001DE393 /* CustomSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSignInButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A560B3E2ABC3F3B002B7392 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3A560B402ABC3F63002B7392 /* ButtonComponents */,
+				3A560B3F2ABC3F4C002B7392 /* InputComponents */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3A560B3F2ABC3F4C002B7392 /* InputComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3A560B3B2ABC3A0E002B7392 /* SecureLableComponent.swift */,
+				3AA0AAB52ABAE141001DE393 /* InputLable.swift */,
+			);
+			path = InputComponents;
+			sourceTree = "<group>";
+		};
+		3A560B402ABC3F63002B7392 /* ButtonComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0AAB72ABAF686001DE393 /* CustomSignInButton.swift */,
+			);
+			path = ButtonComponents;
+			sourceTree = "<group>";
+		};
+		3A560B412ABC3F79002B7392 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3A9886F82AB7EC9B00DF4ECA /* LoginPage.swift */,
+				3A560B482ABC4243002B7392 /* DashboardPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3A560B422ABC3FC0002B7392 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3A560B432ABC40ED002B7392 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				3A560B4C2ABC4A55002B7392 /* Permissions.swift */,
+				3A560B4D2ABC4A55002B7392 /* RoleId.swift */,
+				3A560B4B2ABC4A55002B7392 /* User.swift */,
+				3A560B442ABC410C002B7392 /* UserModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		3A560B4A2ABC4A15002B7392 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3A560B532ABC4A96002B7392 /* LoginResponseMain.swift */,
+				3A560B512ABC4A8B002B7392 /* LoginResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		3A9886EA2AB7EC9B00DF4ECA = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +179,13 @@
 		3A9886F52AB7EC9B00DF4ECA /* get-ride */ = {
 			isa = PBXGroup;
 			children = (
+				3A560B4A2ABC4A15002B7392 /* Response */,
+				3A560B432ABC40ED002B7392 /* Modal */,
+				3A560B422ABC3FC0002B7392 /* API */,
+				3A560B412ABC3F79002B7392 /* Pages */,
+				3A560B3E2ABC3F3B002B7392 /* Common */,
 				3A9886F62AB7EC9B00DF4ECA /* get_rideApp.swift */,
-				3A9886F82AB7EC9B00DF4ECA /* ContentView.swift */,
-				3AA0AAB72ABAF686001DE393 /* CustomSiginButton.swift */,
-				3AA0AAB52ABAE141001DE393 /* inputLable.swift */,
+				3A560B462ABC41FF002B7392 /* ContentView.swift */,
 				3A9886FA2AB7EC9C00DF4ECA /* Assets.xcassets */,
 				3A9886FC2AB7EC9C00DF4ECA /* get_ride.entitlements */,
 				3A9886FD2AB7EC9C00DF4ECA /* Preview Content */,
@@ -265,10 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9886F92AB7EC9B00DF4ECA /* ContentView.swift in Sources */,
-				3AA0AAB62ABAE141001DE393 /* inputLable.swift in Sources */,
+				3A560B4F2ABC4A55002B7392 /* Permissions.swift in Sources */,
+				3A560B452ABC410C002B7392 /* UserModal.swift in Sources */,
+				3A9886F92AB7EC9B00DF4ECA /* LoginPage.swift in Sources */,
+				3A560B502ABC4A55002B7392 /* RoleId.swift in Sources */,
+				3A560B472ABC41FF002B7392 /* ContentView.swift in Sources */,
+				3A560B492ABC4243002B7392 /* DashboardPage.swift in Sources */,
+				3AA0AAB62ABAE141001DE393 /* InputLable.swift in Sources */,
+				3A560B542ABC4A96002B7392 /* LoginResponseMain.swift in Sources */,
+				3A560B522ABC4A8B002B7392 /* LoginResponse.swift in Sources */,
+				3A560B4E2ABC4A55002B7392 /* User.swift in Sources */,
+				3A560B3C2ABC3A0E002B7392 /* SecureLableComponent.swift in Sources */,
 				3A9886F72AB7EC9B00DF4ECA /* get_rideApp.swift in Sources */,
-				3AA0AAB82ABAF686001DE393 /* CustomSiginButton.swift in Sources */,
+				3AA0AAB82ABAF686001DE393 /* CustomSignInButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

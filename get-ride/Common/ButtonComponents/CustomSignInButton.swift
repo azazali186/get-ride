@@ -7,14 +7,23 @@
 
 import SwiftUI
 
-struct CustomSiginButton: View {
+struct CustomSignInButton: View {
     @State private var showAlert: Bool = false
+    var action: () -> Void
     
     var body: some View {
         VStack {
             Button("Sign-in") {
-                showAlert = true
+                action()
             }.padding()
+                .background(
+                            ZStack {
+                                RoundedRectangle(
+                                    cornerRadius: 20
+                                )
+                                .stroke(Color(hex: "#ffffff"), lineWidth: 2)
+                            }
+                        )
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Signin Clicked"),
                       message: Text("You clicked the Sign-in button!"),
@@ -22,10 +31,4 @@ struct CustomSiginButton: View {
             }
         }
     }
-}
-
-struct CustomSiginButton_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomSiginButton()
-        }
 }
