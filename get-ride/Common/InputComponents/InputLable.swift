@@ -15,6 +15,9 @@ struct InputLable: View {
                     text: $modelName,
                     prompt: Text(placeholder).foregroundColor(Color(hex: "#fff"))
                 ).padding()
+                    .autocapitalization(.none)
+                    .keyboardType(.emailAddress)
+                    .disableAutocorrection(true)
                     .frame(width: 250.0)
                     .background(
                         RoundedRectangle(cornerRadius: 50)

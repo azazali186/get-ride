@@ -1,17 +1,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var viewModel = UserModal()
-    
-    @ObservedObject var userModel: UserModal = UserModal()
+    @ObservedObject var userModel = UserModal()
     
     var body: some View {
         NavigationView {
-            if viewModel.isAuthenticated {
-                DashboardPage()
+            if userModel.isAuthenticated, let userObject = userModel.loginResponse?.user {
+                DashboardPage(user: userObject)
+                    .onReceive([userObject].publisher.first()) { user in
+                        print(user)
+                    }
             } else {
-                LoginPage(userModel: viewModel)
+                LoginPage(userModel: userModel)
             }
+        }.alert(isPresented: $userModel.showErrorAlert) {
+            Alert(title: Text("Error"),
+                  message: Text(userModel.errorMessage),
+                  dismissButton: .default(Text("OK")))
         }
     }
 }

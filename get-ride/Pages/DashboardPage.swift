@@ -1,17 +1,17 @@
-//
-//  DashboardPage.swift
-//  get-ride
-//
-//  Created by Janny on 21/9/23.
-//
-
 import SwiftUI
 
 struct DashboardPage: View {
+    var user: User
+    
     var body: some View {
         VStack {
-            Text("Welcome to the Dashboard!")
-                .font(.headline)
+            if let username = user.username {
+                Text("Welcome \(username) to the Dashboard!")
+                    .font(.headline)
+            } else {
+                Text("Welcome to the Dashboard!")
+                    .font(.headline)
+            }
         }
         .padding()
     }

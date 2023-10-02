@@ -11,14 +11,14 @@ struct LoginPage: View {
             VStack {
                 InputLable(modelName: $userModel.username, placeholder: "Enter your username", title: "Username")
                 SecureLableComponent(modelName: $userModel.password, placeholder: "Enter your password", title: "Password")
-                CustomSignInButton(action: userModel.login
+                CustomSignInButton(isLoading: $userModel.isLoading,action: userModel.login
                 ).padding()
                 
             }.foregroundStyle(
                 Color(hex: "#fff")
             ).fontWeight(.bold)
             .padding()
-            .background(Color(UIColor(red: CGFloat(0), green: CGFloat(154), blue: CGFloat(124), alpha: CGFloat(0.0))))
+            .background(Color(hex: "#0d0630"))
         }
     }
 }
